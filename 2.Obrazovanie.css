@@ -1,0 +1,88 @@
+html
+{
+    background: url("Images/back.jpg") ;
+    font-family: Calibri;
+}
+nav > div
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+nav div a
+{
+    border-right: black 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(1)
+{
+    border-left: white 3px solid;
+    padding-left: 15px;
+}
+nav div a:nth-of-type(3)
+{
+    border-right: white 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(4)
+{
+    border-right: white 3px solid;
+    padding-right: 15px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+a:nth-of-type(2)
+{
+    color: black;
+    font-weight: bolder;
+}
+#main2
+{
+    clear: both;
+    margin-top: 200px;
+}
+#main2 > h1
+{
+    padding-top: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+#main_obrazovanie
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+}
+#main_obrazovanie > div
+{
+    padding-left: 55px;
+    text-align: center;
+}
+#main_obrazovanie > div > p
+{
+    font-size: 20px;
+}
+img
+{
+    border: 5px darkblue solid;
+    border-radius: 15px;
+    height: 200px;
+    widt: 300px;
+}
+footer
+{
+    margin-top: 22px;
+    float: right;
+    padding-right: 100px;
+}
+footer p
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 59px;
+}

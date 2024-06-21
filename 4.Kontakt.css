@@ -1,0 +1,123 @@
+html
+{
+    background: url("Images/back.jpg") ;
+    font-family: Calibri;
+}
+nav > div
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+nav > div > a
+{
+    border-right: white 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(1)
+{
+    border-left: white 3px solid;
+    padding-left: 15px;
+}
+nav div a:nth-of-type(2)
+{
+    border-right: white 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(3)
+{
+    border-right: black 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(4)
+{
+    border-right: black 3px solid;
+    padding-right: 15px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 10px;
+}
+a:nth-of-type(4)
+{
+    color: black;
+    font-weight: bold;
+}
+#main4
+{
+    clear: both;
+    margin-top: 200px;
+}
+#main4 > h1
+{
+    padding-top: 130px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+#button
+{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-left: 640px;
+    margin-top: 30px;
+}
+#button:hover
+{
+    background-color: white;
+    color: deepskyblue;
+    border: 2px solid lightblue;
+}
+#main4 div > p
+{
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+#main4 div > p > a
+{
+    color: black;
+    text-decoration: underline;
+}
+#main4 div > p > a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+#main4 > div > img
+{
+    display: inline-block;
+    padding-left: 600px;
+    float: left;
+    height: 35px;
+    width: 35px;
+    padding-right: 30px;
+}
+#main4 > div > p
+{
+    padding-right: 200px;
+}
+footer
+{
+    padding-top: 21px;
+    margin-left: 1006px;
+}
+footer > p
+{
+    padding-top: 97px;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    width: 40%;
+}

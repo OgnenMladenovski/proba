@@ -1,0 +1,141 @@
+html
+{
+    background: url("Images/back.jpg") ;
+    font-family: Calibri;
+}
+nav div
+{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+nav div a
+{
+    border-right: white 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(1)
+{
+    border-left: white 3px solid;
+    padding-left: 15px;
+}
+nav div a:nth-of-type(2)
+{
+    border-right: black 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(3)
+{
+    border-right: black 3px solid;
+    padding-right: 15px;
+}
+nav div a:nth-of-type(4)
+{
+    border-right: white 3px solid;
+    padding-right: 15px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+a:nth-of-type(3)
+{
+    color: black;
+    font-weight: bold;
+}
+#main3
+{
+    clear: both;
+    margin-top: 200px;
+}
+#main3 h1
+{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+#filmovi h2
+{
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 350px;
+    text-decoration: underline;
+}
+#filmovi p
+{
+    float: left;
+    width: 60%;
+    clear: right;
+    padding-left: 60px;
+    font-size: 20px;
+}
+#filmovi img
+{
+    height: 250px;
+    width: 166px;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+#sport h2
+{
+    margin-top: -20px;
+    text-align: right;
+    padding-right: 700px;
+    text-decoration: underline;
+}
+#sport p
+{
+    float: right;
+    width: 40%;
+    padding-right: 300px;
+    font-size: 20px;
+}
+#sport ul
+{
+    float: right;
+    width: 40%;
+    padding-right: 280px;
+    font-size: 20px;
+    padding-top: -30px;
+}
+#sport li:first-child
+{
+    margin-top: -23px;
+}
+#sport img
+{
+    height: 180px;
+    width: 180px;
+    float: left;
+}
+#sport > #sliki
+{
+    padding-left: 40px;
+}
+#main3 > #main_hobi > #filmovi > p > a
+{
+    text-decoration: underline;
+    color: black;
+}
+#main3 > #main_hobi > #filmovi > p > a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+footer
+{
+    padding-top: 21px;
+    margin-left: 1006px;
+}
+footer p
+{
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    width: 40%;
+    position: relative;
+    bottom: 55px;
+}
